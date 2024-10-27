@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>N-Back Mario Game</title>
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/game.css" />
+    <link rel="stylesheet" href="assets/css/buttons.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <canvas id="gameCanvas" width="1000" height="500"></canvas>
+      <div class="controls">
+        <button id="playButton" class="game-button" disabled>Play</button>
+        <button id="pauseButton" class="game-button" disabled>Pause</button>
+        <button id="muteButton" class="game-button">Mute</button>
+        <button
+          id="nextLevelButton"
+          class="game-button"
+          onclick="window.location.href='level-1_2.html'"
+        >
+          Next Level
+        </button>
+      </div>
+      <p class="score">Score: <span id="score">0</span></p>
+    </div>
+    <script src="assets/js/opening-page-1.js"></script>
+  </body>
+</html>
+
