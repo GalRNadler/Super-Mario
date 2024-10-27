@@ -1,0 +1,17 @@
+#gameCanvas {
+    border: 2px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #619FFC;  /* Match this with the JavaScript background color */
+    margin-top: 30px;
+    max-width: 100%;
+    height: auto;
+}
+.stage-header {
+
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #333;
+    font-family: 'Super Mario 256', sans-serif; /* Use a Mario-like font if available */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}

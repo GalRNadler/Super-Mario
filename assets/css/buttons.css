@@ -1,0 +1,41 @@
+.game-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.1s;
+  margin-top: 10px;
+}
+
+.game-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.game-button:active {
+  transform: scale(0.95);
+}
+
+.game-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+#playButton {
+  background-color: #4caf50;
+}
+
+#pauseButton {
+  background-color: #f44336;
+}
+
+#muteButton {
+  background-color: #2196f3;
+}
+
+#finishButton {
+  background-color: #61033e;
+}
